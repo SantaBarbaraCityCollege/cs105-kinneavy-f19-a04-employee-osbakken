@@ -31,11 +31,12 @@ public class Employee {
     // people.
     public String getName() {
     // TODO: Return the name of the employee;
-       
+       return employeeName;
     }
 
     public double getSalary() {
     // TODO: Return the current salary of the employee
+        return currentSalary;
       
 
     }
