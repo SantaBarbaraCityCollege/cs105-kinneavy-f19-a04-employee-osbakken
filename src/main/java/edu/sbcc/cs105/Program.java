@@ -30,3 +30,4 @@ public class Program {
         harry.raiseSalary(10); // Harry gets a 10% raise.
         double harrysSalary = harry.getSalary();
 }
+}

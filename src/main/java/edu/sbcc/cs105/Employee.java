@@ -22,8 +22,8 @@ public class Employee {
      */
     public Employee(String employeeName, double currentSalary) {
     // TODO: Initialize instance variables from constructor (ctor) parameters
-          String name = employeeName;
-          double Salary = currentSalary;
+          this.employeeName = employeeName;
+          this.currentSalary = currentSalary;
     }
 
     // Accessors that are obvious and have no side effects don't have to have
@@ -31,13 +31,12 @@ public class Employee {
     // people.
     public String getName() {
     // TODO: Return the name of the employee;
-        return name;
-
+       
     }
 
     public double getSalary() {
     // TODO: Return the current salary of the employee
-        return Salary;
+      
 
     }
 
