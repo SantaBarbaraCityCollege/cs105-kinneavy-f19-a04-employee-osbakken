@@ -12979,6 +12979,20 @@
 						<property name="qualityScore" type="int" value="-1"/>
 					</properties>
 				</vpumlModel>
+				<vpumlModel id="xTgHkbaAUCQIRwpV" modelType="Anchor">
+					<properties>
+						<property name="modelType" type="string" value="Anchor"/>
+						<property modelRef="jzd7kbaAUCQIRwo_" name="from" type="fromTo"/>
+						<property modelRef="5g9_2raGAqAC4wmM" name="to" type="fromTo"/>
+						<property name="documentation" type="htmlString" value=""/>
+						<property name="pmAuthor" type="string" value="Alysha"/>
+						<property name="pmCreateDateTime" type="string" value="1569976229027"/>
+						<property name="pmLastModified" type="string" value="1569976257938"/>
+						<property name="userIDLastNumericValue" type="int" value="0"/>
+						<property name="backlogActivityId" type="int" value="0"/>
+						<property name="qualityScore" type="int" value="-1"/>
+					</properties>
+				</vpumlModel>
 			</vpumlChildModels>
 		</xmi:Extension>
 		<ownedMember name="UseCase" xmi:id="UseCase_UseCase_id" xmi:type="uml:Stereotype">
@@ -13528,6 +13542,29 @@
 					</xmi:Extension>
 				</ownedOperation>
 			</ownedMember>
+			<ownedComment body="This is an Employee class" name="" xmi:id="jzd7kbaAUCQIRwo_" xmi:type="uml:Comment">
+				<xmi:Extension extender="Visual Paradigm">
+					<htmlValue value="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      This is an Employee class&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;"/>
+					<type value="NOTE"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+				<annotatedElement xmi:idref="5g9_2raGAqAC4wmM"/>
+			</ownedComment>
+		</ownedMember>
+		<ownedMember isAbstract="false" isLeaf="false" name="A05 - Letter" visibility="public" xmi:id="0jCbkbaAUCQIRwnp" xmi:type="uml:Package">
+			<xmi:Extension extender="Visual Paradigm">
+				<isRoot xmi:value="false"/>
+				<qualityScore value="-1"/>
+				<subdiagram xmi:value="oNfbkbaAUCQIRwn2"/>
+			</xmi:Extension>
+			<ownedMember isAbstract="false" isActive="false" isLeaf="false" name="Letter" visibility="public" xmi:id="ShU7kbaAUCQIRwoG" xmi:type="uml:Class">
+				<xmi:Extension extender="Visual Paradigm">
+					<isRoot xmi:value="false"/>
+					<modelType value="Class"/>
+					<businessModel xmi:value="false"/>
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+			</ownedMember>
 		</ownedMember>
 		<ownedMember name="LocalDateTime" visibility="public" xmi:id="LocalDateTime_id" xmi:type="uml:DataType"/>
 		<ownedMember name="void" visibility="public" xmi:id="void_id" xmi:type="uml:DataType"/>
@@ -13781,7 +13818,7 @@
 				<ashowAllocatedTo value="true"/>
 				<apmAuthor value="Alysha"/>
 				<apmCreateDateTime value="1569206448678"/>
-				<apmLastModified value="1569373212677"/>
+				<apmLastModified value="1569976247936"/>
 				<ateamworkCreateDateTime value="0"/>
 				<ashowShapeLegend value="false"/>
 				<ashowColorLegend value="false"/>
@@ -13858,6 +13895,244 @@
 			<uml:DiagramElement geometry="338,95,548,149" preferredShapeType="Class" subject="5g9_2raGAqAC4wmM" xmi:id="5g9_2raGAqAC4wmL">
 				<xmi:Extension extender="Visual Paradigm">
 					<captionBounds value="0,0,548,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="4"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<adisplayAsRobustnessAnalysisIcon value="true"/>
+						<avisibilityStyle value="1"/>
+						<ashowAttributeType value="1"/>
+						<ashowOperationType value="1"/>
+						<ashowEnumerationLiteralType value="1"/>
+						<amSwTpPts value="true"/>
+						<alshRfAts value="0"/>
+						<amShDrAt value="false"/>
+						<akShDrOp value="false"/>
+						<akSwCsMbSt value="true"/>
+						<ashowClassMemberConstraints value="true"/>
+						<alShCmMl value="false"/>
+						<ashowOperationParameterDirection value="false"/>
+						<ashowOperationRaisedExceptions value="false"/>
+						<ashowParameterNameInOperationSignature value="true"/>
+						<ashowOperationTemplateParameters value="false"/>
+						<ashowOperationProperties value="false"/>
+						<awpMbs value="false"/>
+						<aattributeSortType value="0"/>
+						<aoperationSortType value="0"/>
+						<aenumerationLiteralSortType value="0"/>
+						<ashowInitialAttributeValue value="true"/>
+						<ashowOperationSignature value="true"/>
+						<ainterfaceBall value="false"/>
+						<ashowEmptyCompartments value="0"/>
+						<ashowEllipsisForUnshownMembers value="0"/>
+						<ashowAttributesCodeDetails value="0"/>
+						<ashowAttributesPropertyModifiers value="0"/>
+						<ashowOperationsCodeDetails value="0"/>
+						<ashowParametersCodeDetails value="0"/>
+						<ashowTypeOption value="0"/>
+						<ashowOwnerOption value="3"/>
+						<ashowAttributesType value="0"/>
+						<ashowOperationsParameters value="0"/>
+						<ashowOperationsReturnType value="0"/>
+						<asuppressImplied1MultiplicityForAttribute value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				<CompartmentFont value="none"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="962,103,193,48" preferredShapeType="NOTE" subject="jzd7kbaAUCQIRwo_" xmi:id="jzd7kbaAUCQIRwo.">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,178,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<azOrder value="2"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<apresentationOption value="4"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowStereotypeIconName value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<aangle value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="12" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement fromDiagramElement="jzd7kbaAUCQIRwo." geometry="962,151;887,151;" preferredShapeType="Anchor" subject="xTgHkbaAUCQIRwpV" toDiagramElement="5g9_2raGAqAC4wmL" xmi:id="FTgHkbaAUCQIRwpW">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="915,151,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="6"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="ClassDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<arequestResetCaptionFitWidth value="false"/>
+						<amodelElementNameAlignment value="9"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<arequestRebuildFromEnd value="false"/>
+						<arequestRebuildToEnd value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+		</uml:Diagram.element>
+	</uml:Diagram>
+	<uml:Diagram diagramType="ClassDiagram" documentation="" name="A05 - Letter" toolName="Visual Paradigm" xmi:id="oNfbkbaAUCQIRwn2">
+		<xmi:Extension extender="Visual Paradigm">
+			<properties>
+				<ashowShapeStereotypeIconName value="true"/>
+				<ashowAllocatedFrom value="true"/>
+				<ashowAllocatedTo value="true"/>
+				<apmAuthor value="Alysha"/>
+				<apmCreateDateTime value="1569975954181"/>
+				<apmLastModified value="1569976012827"/>
+				<ateamworkCreateDateTime value="0"/>
+				<ashowShapeLegend value="false"/>
+				<ashowColorLegend value="false"/>
+				<ashowPackageNameStyle value="0"/>
+				<ashowConnectorName value="0"/>
+				<ashowInformationItemOption value="2"/>
+				<ahideConnectorIfFromToIsHidden value="0"/>
+				<apaintConnectorThroughLabel value="1"/>
+				<ashowActivityStateNodeCaption value="524287"/>
+				<adocumentation htmlValue="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      Class diagram for A05 - Letter.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;"/>
+				<aeditable value="true"/>
+				<arequestFitSizeWithPromptUser value="false"/>
+				<afollowDiagramParentElement value="true"/>
+				<aautoFitShapesSize value="false"/>
+				<ashowTaggedValues value="false"/>
+				<ahideEmptyTaggedValues value="false"/>
+				<ashowStereotypes value="true"/>
+				<ashowPMIteration value="false"/>
+				<ashowPMPhase value="false"/>
+				<ashowPMDiscipline value="false"/>
+				<ashowPMVersion value="false"/>
+				<ashowPMPriority value="false"/>
+				<ashowPMStatus value="false"/>
+				<ashowPMDifficulty value="false"/>
+				<ashowPMAuthor value="false"/>
+				<ashowConstraints value="false"/>
+				<aalignToGrid value="false"/>
+				<agridVisible value="false"/>
+				<agridWidth value="10"/>
+				<agridHeight value="10"/>
+				<agridColor value="Cr:192,192,192,255"/>
+				<adiagramBackground value="Cr:255,255,255,255"/>
+				<aconnectorStyle value="1"/>
+				<aconnectorLineJumps value="0"/>
+				<aconnectorLineJumpsSize value="0"/>
+				<aconnectionPointStyle value="0"/>
+				<aconnectorLabelOrientation value="0"/>
+				<aconnectorModelElementNameAlignment value="4"/>
+				<amodelElementNameAlignment value="4"/>
+				<ashapePresentationOption value="0"/>
+				<azoomRatio value="1.0"/>
+				<amaximized value="false"/>
+				<ax value="0"/>
+				<ay value="0"/>
+				<awidth value="1509"/>
+				<aheight value="711"/>
+				<aqualityScore value="-1"/>
+				<aparentModel value="0jCbkbaAUCQIRwnp"/>
+				<a_globalPaletteOption value="true"/>
+				<ainitializeDiagramForCreate value="true"/>
+				<arequestValidateSnapToGrid value="false"/>
+				<apointConnectorEndToCompartmentMember value="true"/>
+				<ashowDefaultPackage value="true"/>
+				<ashowAttributeGetterSetter value="false"/>
+				<ashowClassOwner value="2"/>
+				<ashowPackageOwner value="2"/>
+				<ashowTemplateInfoOfGeneralizationAndRealization value="false"/>
+				<asuppressImplied1MultiplicityForAttributeAndAssociationEnd value="false"/>
+				<ashowClassEmptyCompartments value="2"/>
+				<ashowAttributesCodeDetails value="2"/>
+				<ashowAttributesPropertyModifiers value="2"/>
+				<ashowAttributesType value="1"/>
+				<ashowOperationsParameters value="1"/>
+				<ashowOperationsReturnType value="1"/>
+				<ashowOperationsCodeDetails value="2"/>
+				<ashowParametersCodeDetails value="2"/>
+				<ashowEllipsisForUnshownClassMembers value="2"/>
+				<ageneralizationSetNotation value="2"/>
+				<ashowAssociationNavigationArrows value="3"/>
+				<ashowClassReferencedAttributes value="true"/>
+			</properties>
+		</xmi:Extension>
+		<uml:Diagram.element>
+			<uml:DiagramElement geometry="471,179,389,172" preferredShapeType="Class" subject="ShU7kbaAUCQIRwoG" xmi:id="ShU7kbaAUCQIRwoF">
+				<xmi:Extension extender="Visual Paradigm">
+					<captionBounds value="0,0,389,15"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
