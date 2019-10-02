@@ -15,13 +15,13 @@ package edu.sbcc.cs105;
  *
  */
 public class Employee {
-
+    private String employeeName; //declare instance variable employeeName
+    private double currentSalary; //declare instance variable currentSalary
     /**
      * Constructor that creates a new Employee with an initial name and salary.
      * 
      */
     public Employee(String employeeName, double currentSalary) {
-    // TODO: Initialize instance variables from constructor (ctor) parameters
           this.employeeName = employeeName;
           this.currentSalary = currentSalary;
     }
@@ -30,12 +30,10 @@ public class Employee {
     // any documentation unless you are creating a library to be used by other
     // people.
     public String getName() {
-    // TODO: Return the name of the employee;
-       return employeeName;
+       return employeeName; 
     }
 
-    public double getSalary() {
-    // TODO: Return the current salary of the employee
+    public double getSalary() { 
         return currentSalary;
       
 
@@ -46,7 +44,6 @@ public class Employee {
      * 
      */
     public void raiseSalary(double byPercent) {
-    // TODO: Calculate the new salary by increasing it by the percent passed in as a method argument
        currentSalary += byPercent/100 * currentSalary;
     }
 }

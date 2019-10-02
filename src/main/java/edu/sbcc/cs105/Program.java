@@ -26,8 +26,13 @@ public class Program {
      *            command line values. Not used in this example.
      */
     public static void main(String[] args) {
-		Employee harry = new Employee("Harry", 10000);
-        harry.raiseSalary(10); // Harry gets a 10% raise.
-        double harrysSalary = harry.getSalary();
+
+    Employee testMan = new Employee("Testing McTesterson", 50000);
+        
+        System.out.println("Employee's name is " + testMan.getName() + " (name should be Testing McTesterson)");
+        System.out.println("Salary is " + testMan.getSalary() + " (salary should be 50000)");
+        testMan.raiseSalary(10);
+        System.out.println("Employee's new salary is " + testMan.getSalary() + " (new salary should be 55000)");
+        
 }
 }
