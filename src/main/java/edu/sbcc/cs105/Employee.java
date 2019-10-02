@@ -15,8 +15,8 @@ package edu.sbcc.cs105;
  *
  */
 public class Employee {
-    private String employeeName; //declare instance variable employeeName
-    private double currentSalary; //declare instance variable currentSalary
+    private String employeeName; //declares instance variable employeeName
+    private double currentSalary; //declares instance variable currentSalary
     /**
      * Constructor that creates a new Employee with an initial name and salary.
      * 
@@ -29,6 +29,7 @@ public class Employee {
     // Accessors that are obvious and have no side effects don't have to have
     // any documentation unless you are creating a library to be used by other
     // people.
+
     public String getName() {
        return employeeName; 
     }
